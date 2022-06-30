@@ -1,0 +1,229 @@
+body{
+    background-image: url('https://media.istockphoto.com/vectors/superheroes-vector-id519487379?k=20&m=519487379&s=612x612&w=0&h=q68ruzzZxOfPQ3N56V4kEWMIQu1-QIIT2P8s402u8pM=');
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #title{
+    color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.6rem;
+    border: 1px solid;
+    padding: 10px;
+    }
+  
+  #search-container{
+    position: relative;
+    display: inline-block;
+  }
+  
+  #search{
+    width: 420px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 1px solid #0A1F44;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    background-color:silver;
+    
+  }
+  
+  #search:focus{
+    outline: none;
+  }
+  
+  #search-results-list{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  
+  #search-results-list div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  .search-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+/* For Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 3.6rem;
+    border: 1px solid;
+    padding: 10px;
+  }
+
+  nav .left {
+    font-size: 18px;
+    font-family:cursive;
+  }
+
+
+
+  /* Home Tag */
+  .hlink img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+  }  
+
+  
+  #super-hero-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+  }
+  
+  #image{
+    width: 350px;
+    height: 250px;
+  }
+  
+  #img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    width: 30%;
+  }
+  
+  #main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+    width: 70%;
+  }
+  
+  #hero-name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  #right{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+  }
+  
+  #right div{
+    padding-top: 15px;
+  }
+  
+  .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  #aliases{
+    max-width: 250px;
+    max-height: 100px;
+    overflow: auto;
+  }
+  
+  #favourite-heros{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-width: 480px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .hero-img-container{
+    height: 270px;
+    width: 210px;
+    margin: 20px;
+  }
+  
+  .hero-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 35px;
+    margin-top: -35px;
+    color: white;
+  }
+  
+  .hero-name{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .remove-fav{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #228370;
+    padding: 15px;
+    color:black;
+    border-radius: 5px;
+  }
+  
+  .remove-fav:hover{
+    background-color: #751a2c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 15px 0 0;
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: #151617;
+    font-weight:bold;
+    font-size: 1.5rem;
+  }
