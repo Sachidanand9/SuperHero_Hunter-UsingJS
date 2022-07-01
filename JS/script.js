@@ -107,9 +107,9 @@ addToFavourites = async(e) => {
   }
   
 // Remove a Fero From Favourites
-removeFromFavourites = async(e) =>{
+ removeFromFavourites = async(e) =>{
     let id = e.target.parentElement.id;
-    let favs = getFavs();
+    let favs = getFavourite();
   
     let updatedFavs = favs.filter(function(val){
       return val != id;

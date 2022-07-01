@@ -1,8 +1,7 @@
 body{
-    background-image: url('https://media.istockphoto.com/vectors/superheroes-vector-id519487379?k=20&m=519487379&s=612x612&w=0&h=q68ruzzZxOfPQ3N56V4kEWMIQu1-QIIT2P8s402u8pM=');
-    background-size: cover;
     margin: auto;
     text-align: center;
+    background: #5a6476;
   }
   
   #title{
@@ -46,7 +45,10 @@ body{
     max-height: 400px;
     overflow-y: scroll;
   }
-  
+  #search-results-list div:hover{
+    background-color: #aab7ce;
+    color:green;
+  }
   #search-results-list div {
     padding: 10px;
     cursor: pointer;
